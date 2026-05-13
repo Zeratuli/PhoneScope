@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+slowapi
+Pillow
+reportlab
+numpy
+aiofiles
+sqlalchemy
+pymysql
+cryptography
+opencv-python-headless

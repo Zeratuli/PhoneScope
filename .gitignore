@@ -1,0 +1,54 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Python
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.pytest_cache/
+**/.mypy_cache/
+
+# Virtual environments
+**/venv/
+**/.venv/
+**/env/
+
+# Frontend dependencies / build
+网页程序/frontend/node_modules/
+网页程序/frontend/dist/
+
+# Runtime artifacts
+网页程序/backend/uploads/
+网页程序/backend/results/
+分类程序/runs/
+分类程序/classification_swintransformer/runs/
+分类程序/classification_swintransformer/orimage/
+检测程序/detection_YOLOv11m/ultralytics-8.3.163/results/
+
+# Training weights / exported models
+**/*.pt
+**/*.onnx
+**/*.engine
+**/*.torchscript
+**/*.weights
+
+# Local env files
+**/.env
+!网页程序/backend/.env.example
+!网页程序/.env.example
+
+# Datasets / raw assets
+分类程序/data/
+分类程序/raw_data/
+分类程序/classification_swintransformer/data/
+分类程序/classification_swintransformer/oriData/
+检测程序/detection_YOLOv11m/ultralytics-8.3.163/datasets/Phone/
+
+# Large local docs / exports
+*.zip
